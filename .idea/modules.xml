@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Ex1 Input Output/Ex1 Input Output.iml" filepath="$PROJECT_DIR$/Ex1 Input Output/Ex1 Input Output.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Ex3 Conditional.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Ex3 Conditional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/Ex4 Loops.iml" filepath="$PROJECT_DIR$/Ex4 Loops/Ex4 Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/For/For.iml" filepath="$PROJECT_DIR$/Ex4 Loops/For/For.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Mashrooms/Mashrooms.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Mashrooms/Mashrooms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Switch/Number to text/Number to text.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Switch/Number to text/Number to text.iml" />
@@ -14,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Ternary operation/Ternary operation.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Ternary operation/Ternary operation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Tasks/Three-digit number sum/Three-digit number sum.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Tasks/Three-digit number sum/Three-digit number sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Triangle/Triangle.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Triangle/Triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/While/While.iml" filepath="$PROJECT_DIR$/Ex4 Loops/While/While.iml" />
     </modules>
   </component>
 </project>
