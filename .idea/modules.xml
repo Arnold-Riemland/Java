@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Ex3 Conditional.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Ex3 Conditional.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/Ex4 Loops.iml" filepath="$PROJECT_DIR$/Ex4 Loops/Ex4 Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/For/Factorial/Factorial.iml" filepath="$PROJECT_DIR$/Ex4 Loops/For/Factorial/Factorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/For/For.iml" filepath="$PROJECT_DIR$/Ex4 Loops/For/For.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Mashrooms/Mashrooms.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Mashrooms/Mashrooms.iml" />
@@ -14,9 +15,12 @@
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Switch/Switch.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Switch/Switch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Tasks/Tasks.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Tasks/Tasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Ternary operation/Ternary operation.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Ternary operation/Ternary operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/While/The smallest natural divisor/The smallest natural divisor.iml" filepath="$PROJECT_DIR$/Ex4 Loops/While/The smallest natural divisor/The smallest natural divisor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Tasks/Three-digit number sum/Three-digit number sum.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Tasks/Three-digit number sum/Three-digit number sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Triangle/Triangle.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Triangle/Triangle.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/While/While.iml" filepath="$PROJECT_DIR$/Ex4 Loops/While/While.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/For/fibonacci numbers/fibonacci numbers.iml" filepath="$PROJECT_DIR$/Ex4 Loops/For/fibonacci numbers/fibonacci numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex4 Loops/For/multiplication table/multiplication table.iml" filepath="$PROJECT_DIR$/Ex4 Loops/For/multiplication table/multiplication table.iml" />
     </modules>
   </component>
 </project>

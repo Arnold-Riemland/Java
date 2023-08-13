@@ -1,3 +1,7 @@
+import java.util.Scanner;
+
+import static java.lang.Math.max;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -24,5 +28,25 @@ public class Main {
          *  break    - заканчивает цикл, в котором находится
          *  continue - пропускает операторы, стоящие за ним внутри цикла. Цикл переходит к следующей итерации.
          */
+        int num;
+        int max;
+        int a = 1;
+        int location = 1;
+        Scanner input = new Scanner(System.in);
+        num = input.nextInt();
+        max = num;
+        while (num != 0) {
+
+            num = input.nextInt();
+            a++;
+            if (num > max) {
+                location = a;
+            }
+            max = Math.max(num, max);
+
+
+        }
+        System.out.println(max);
+        System.out.println(location);
     }
 }
