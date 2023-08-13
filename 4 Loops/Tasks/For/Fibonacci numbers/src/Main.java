@@ -15,7 +15,7 @@ public class Main {
             a = b;
             b = sum;
 
-            System.out.println(sum);
+            System.out.printf("%d ", a);
         }
     }
 }

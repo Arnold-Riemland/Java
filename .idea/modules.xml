@@ -7,11 +7,13 @@
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Ex3 Conditional.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Ex3 Conditional.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Factorial/Factorial.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Factorial/Factorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Fibonacci numbers/Fibonacci numbers.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Fibonacci numbers/Fibonacci numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/For/For.iml" filepath="$PROJECT_DIR$/4 Loops/For/For.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/If/If.iml" filepath="$PROJECT_DIR$/3 Conditional/If/If.iml" />
       <module fileurl="file://$PROJECT_DIR$/1 Input Output/Input Output/Input Output.iml" filepath="$PROJECT_DIR$/1 Input Output/Input Output/Input Output.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Tasks/Mashrooms/Mashrooms.iml" filepath="$PROJECT_DIR$/3 Conditional/Tasks/Mashrooms/Mashrooms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Multiplication table/Multiplication table.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Multiplication table/Multiplication table.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Switch/Number to text/Number to text.iml" filepath="$PROJECT_DIR$/3 Conditional/Switch/Number to text/Number to text.iml" />
       <module fileurl="file://$PROJECT_DIR$/2 Division operations/Tasks/Seconds/Seconds.iml" filepath="$PROJECT_DIR$/2 Division operations/Tasks/Seconds/Seconds.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Switch/Switch.iml" filepath="$PROJECT_DIR$/3 Conditional/Switch/Switch.iml" />
@@ -21,8 +23,6 @@
       <module fileurl="file://$PROJECT_DIR$/2 Division operations/Tasks/Three-digit number sum/Three-digit number sum.iml" filepath="$PROJECT_DIR$/2 Division operations/Tasks/Three-digit number sum/Three-digit number sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Tasks/Triangle/Triangle.iml" filepath="$PROJECT_DIR$/3 Conditional/Tasks/Triangle/Triangle.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/While/While.iml" filepath="$PROJECT_DIR$/4 Loops/While/While.iml" />
-      <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/fibonacci numbers/fibonacci numbers.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/fibonacci numbers/fibonacci numbers.iml" />
-      <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/multiplication table/multiplication table.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/multiplication table/multiplication table.iml" />
     </modules>
   </component>
 </project>

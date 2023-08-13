@@ -36,15 +36,12 @@ public class Main {
         num = input.nextInt();
         max = num;
         while (num != 0) {
-
             num = input.nextInt();
             a++;
             if (num > max) {
                 location = a;
             }
             max = Math.max(num, max);
-
-
         }
         System.out.println(max);
         System.out.println(location);
