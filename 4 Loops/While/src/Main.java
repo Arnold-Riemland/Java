@@ -31,19 +31,29 @@ public class Main {
         int num;
         int max;
         int a = 1;
+        int b = 1;
         int location = 1;
+        String d = "";
         Scanner input = new Scanner(System.in);
         num = input.nextInt();
         max = num;
         while (num != 0) {
             num = input.nextInt();
             a++;
-            if (num > max) {
+            if (num >= max) {
+                if (num > max) {
+                    b = 0;
+                    d="";
+                }
+                b++;
                 location = a;
+                d += location;
+                d +=",";
             }
             max = Math.max(num, max);
         }
         System.out.println(max);
-        System.out.println(location);
+        System.out.println(d);
+        System.out.println(b);
     }
 }
