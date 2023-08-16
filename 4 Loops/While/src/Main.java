@@ -30,30 +30,29 @@ public class Main {
          */
         int num;
         int max;
-        int a = 1;
-        int b = 1;
+        int index = 1;
+        int max_count = 1;
         int location = 1;
-        String d = "";
+        String output_string = "";
         Scanner input = new Scanner(System.in);
         num = input.nextInt();
         max = num;
         while (num != 0) {
             num = input.nextInt();
-            a++;
+            index++;
             if (num >= max) {
                 if (num > max) {
-                    b = 0;
-                    d="";
+                    max_count = 0;
+                    output_string = "";
                 }
-                b++;
-                location = a;
-                d += location;
-                d +=",";
+                max_count++;
+                location = index;
+                output_string += location + " ";
             }
             max = Math.max(num, max);
         }
         System.out.println(max);
-        System.out.println(d);
-        System.out.println(b);
+        System.out.println(output_string);
+        System.out.println(max_count);
     }
 }
