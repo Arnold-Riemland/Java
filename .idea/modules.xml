@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/5 Arrays/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/5 Arrays/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/2 Division operations/Division operations/Division operations.iml" filepath="$PROJECT_DIR$/2 Division operations/Division operations/Division operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex1 Input Output/Ex1 Input Output.iml" filepath="$PROJECT_DIR$/Ex1 Input Output/Ex1 Input Output.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" />
@@ -9,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Factorial/Factorial.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Factorial/Factorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Fibonacci numbers/Fibonacci numbers.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Fibonacci numbers/Fibonacci numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/For/For.iml" filepath="$PROJECT_DIR$/4 Loops/For/For.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4 Loops/Foreach/Foreach.iml" filepath="$PROJECT_DIR$/4 Loops/Foreach/Foreach.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/If/If.iml" filepath="$PROJECT_DIR$/3 Conditional/If/If.iml" />
       <module fileurl="file://$PROJECT_DIR$/1 Input Output/Input Output/Input Output.iml" filepath="$PROJECT_DIR$/1 Input Output/Input Output/Input Output.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
