@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         /**
@@ -29,7 +31,5 @@ public class Main {
         for (int num : nums) {
             System.out.printf("%d ", num);
         }
-
-        
     }
 }
