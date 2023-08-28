@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/5 Arrays/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functions/Tasks/Distance between two points/Distance between two points.iml" filepath="$PROJECT_DIR$/Functions/Tasks/Distance between two points/Distance between two points.iml" />
       <module fileurl="file://$PROJECT_DIR$/2 Division operations/Division operations/Division operations.iml" filepath="$PROJECT_DIR$/2 Division operations/Division operations/Division operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Tasks/Even elements/Even elements.iml" filepath="$PROJECT_DIR$/5 Arrays/Tasks/Even elements/Even elements.iml" />
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Tasks/Even indices/Even indices.iml" filepath="$PROJECT_DIR$/5 Arrays/Tasks/Even indices/Even indices.iml" />
@@ -28,6 +29,8 @@
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Switch/Number to text/Number to text.iml" filepath="$PROJECT_DIR$/3 Conditional/Switch/Number to text/Number to text.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Pythagor Square/Pythagor Square.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Pythagor Square/Pythagor Square.iml" />
       <module fileurl="file://$PROJECT_DIR$/2 Division operations/Tasks/Seconds/Seconds.iml" filepath="$PROJECT_DIR$/2 Division operations/Tasks/Seconds/Seconds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functions/Tasks/Sudoku/Sudoku.iml" filepath="$PROJECT_DIR$/Functions/Tasks/Sudoku/Sudoku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functions/Tasks/Sudoku2/Sudoku2.iml" filepath="$PROJECT_DIR$/Functions/Tasks/Sudoku2/Sudoku2.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Switch/Switch.iml" filepath="$PROJECT_DIR$/3 Conditional/Switch/Switch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Tasks/Tasks.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Tasks/Tasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Ternary operation/Ternary operation.iml" filepath="$PROJECT_DIR$/3 Conditional/Ternary operation/Ternary operation.iml" />
