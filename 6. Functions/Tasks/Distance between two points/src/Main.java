@@ -10,12 +10,11 @@ public class Main {
         int y1 = input.nextInt();
         int x2 = input.nextInt();
         int y2 = input.nextInt();
-        System.out.printf("Answer = %f", SumSequence(x1, y1, x2, y2));
+        System.out.printf("Answer = %f", Distance(x1, y1, x2, y2));
     }
-    static double SumSequence(int x1, int y1, int x2, int y2) {
-        double sum;
-        sum = sqrt(pow(x2,2)-pow(x1,2)+pow(y2,2)-pow(y1,2));
-        return  sum;
+
+    static double Distance(int x1, int y1, int x2, int y2) {
+        return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
     }
 }
 
