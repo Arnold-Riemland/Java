@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
+        n*=n;
         int[][] matrix = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j <n; j++) {
@@ -10,5 +11,9 @@ public class Main {
             }
         }
         System.out.println();
+    }
+    public boolean CheckSudoku(int[][] matrix){
+
+        return true;
     }
 }
