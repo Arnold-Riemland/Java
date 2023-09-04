@@ -11,24 +11,19 @@ public class Main {
             if (isSimple(number)) {
                 count++;
                 System.out.printf("%d ", number);
-                number++;
-            } else number++;
+            }
+            number++;
         }
     }
 
     public static boolean isSimple(int number) {
-        int ansver = 1;
-        int sum = 0;
-        while (number > ansver) {
-            if (number % ansver != 0) {
-            } else if (number != ansver) {
-                sum += ansver;
+        if (number == 1)
+            return false;
+        for (int i = 2; i < number; i++) {
+            if (number % i == 0) {
+                return false;
             }
-            ansver++;
         }
-        if (sum == number) {
-            return true;
-        }
-        return false;
+        return true;
     }
 }

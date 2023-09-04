@@ -9,21 +9,19 @@ public class Main {
         amountOfElements = input.nextInt();
         while (amountOfElements != count) {
             number++;
-            isSimple(number);
-            if (isSimple(number) == true) {
+            if (isPerfect(number)) {
                 count++;
                 System.out.printf("%d ", number);
             }
         }
     }
 
-    public static boolean isSimple(int number) {
+    public static boolean isPerfect(int number) {
         int ansver = 2;
+        // TODO: Проверить и исправить!!!!
         while (number % ansver != 0) {
             ansver++;
         }
-        if (number == ansver) {
-            return true;
-        } else return false;
+        return number == ansver;
     }
 }

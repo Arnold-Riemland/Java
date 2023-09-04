@@ -34,9 +34,10 @@ public class Main {
                 three(matrix);
                 break;
             case 4:
-                System.out.println("Размер: ");
+                System.out.print("Строк: ");
                 rowsCount = input.nextInt();
-                colsCount = rowsCount;
+                System.out.println("Столбцов: ");
+                colsCount = input.nextInt();
                 matrix = new int[rowsCount][colsCount];
                 four(matrix);
                 break;
@@ -47,9 +48,9 @@ public class Main {
     }
 
     public static void printMatrix(int[][] matrix) {
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                System.out.printf("%5d", matrix[i][j]);
+        for (int[] row : matrix) {
+            for (int num : row) {
+                System.out.printf("%5d", num);
             }
             System.out.println("\n");
         }
@@ -93,7 +94,7 @@ public class Main {
     public static void four(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                matrix[i][j] = min(min(i, j), min(matrix.length - j - 1, matrix[i].length - i - 1));
+                matrix[i][j] = min(min(i, j), min(matrix.length - i - 1, matrix[i].length - j - 1));
             }
         }
     }
