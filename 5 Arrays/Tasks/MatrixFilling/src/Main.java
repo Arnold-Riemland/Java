@@ -1,134 +1,100 @@
 import java.util.Scanner;
 
+import static java.lang.Math.min;
+
 public class Main {
     public static void main(String[] args) {
-        int eingabe;
-        System.out.println("Menu ");
-        System.out.println("1)1010\n2)100001\n3)0111111110\n4)000000000 \n  011111110");
-        Scanner input1 = new Scanner(System.in);
-        eingabe = input1.nextInt();
-        switch (eingabe) {
+        int action, rowsCount, colsCount;
+        int[][] matrix = null;
+        System.out.print("Выберите вариант заполнения (1-4): ");
+        Scanner input = new Scanner(System.in);
+        action = input.nextInt();
+        System.out.println("Установить размеры матрицы");
+        switch (action) {
             case 1:
-                System.out.println("Установить длину строки и столбца \n");
-                System.out.println("строка");
-                int n1 = input1.nextInt();
-                System.out.println("столбец");
-                int n2 = input1.nextInt();
-                one(n1, n2);
+                System.out.print("Строк: ");
+                rowsCount = input.nextInt();
+                System.out.println("Столбцов: ");
+                colsCount = input.nextInt();
+                matrix = new int[rowsCount][colsCount];
+                one(matrix);
                 break;
             case 2:
-                System.out.println("Установить длину строки и столбца \n");
-                System.out.println("длина столбца");
-                int n3 = input1.nextInt();
-                System.out.println("длина строки");
-                int n4 = input1.nextInt();
-                two(n3, n4);
+                System.out.println("Размер: ");
+                rowsCount = input.nextInt();
+                colsCount = rowsCount;
+                matrix = new int[rowsCount][colsCount];
+                two(matrix);
                 break;
             case 3:
-                System.out.println("Установить длину строки и столбца \n");
-                System.out.println("длина столбца");
-                int n5 = input1.nextInt();
-                System.out.println("длина строки");
-                int n6 = input1.nextInt();
-                three(n5, n6);
+                System.out.println("Размер: ");
+                rowsCount = input.nextInt();
+                colsCount = rowsCount;
+                matrix = new int[rowsCount][colsCount];
+                three(matrix);
                 break;
             case 4:
-                System.out.println("Установить длину строки и столбца \n");
-                System.out.println("длина столбца");
-                int n7 = input1.nextInt();
-                System.out.println("длина строки");
-                int n8 = input1.nextInt();
-                four(n7, n8);
+                System.out.println("Размер: ");
+                rowsCount = input.nextInt();
+                colsCount = rowsCount;
+                matrix = new int[rowsCount][colsCount];
+                four(matrix);
                 break;
+            default:
+                System.out.println("Неверный выбор!");
         }
+        printMatrix(matrix);
     }
 
-    public static void one(int n1, int n2) {
-        int sum = 0;
-        int[][] matrix = new int[n1][n2];
-        for (int i = 0; i < n1; i++) {
-            for (int j = 0; j < n2; j++) {
-                sum++;
-                if (sum % 2 != 0) {
-                    matrix[i][j] = 1;
-                    System.out.printf("%4d ", matrix[i][j]);
-                } else {
-                    matrix[i][j] = 0;
-                    System.out.printf("%4d ", matrix[i][j]);
-                }
-            }
-            System.out.println("\n");
-            sum++;
-        }
-        System.out.println("\n");
-
-    }
-
-    public static void two(int n1, int n2) {
-        int[][] matrix = new int[n1][n2];
-        for (int i = 0; i < n1; i++) {
-            for (int j = 0; j < n2; j++) {
-                if (i == j || i + j == n2 - 1) {
-                    matrix[i][j] = 1;
-                    System.out.printf("%4d ", matrix[i][j]);
-                } else {
-                    matrix[i][j] = 0;
-                    System.out.printf("%4d ", matrix[i][j]);
-                }
+    public static void printMatrix(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.printf("%5d", matrix[i][j]);
             }
             System.out.println("\n");
         }
         System.out.println("\n");
     }
 
-    public static void three(int n1, int n2) {
-        int oben;
-        int links;
-        int unten;
-        int rechts;
-        int[][] matrix = new int[n1][n2];
-        for (int i = 0; i < n1; i++) {
-            for (int j = 0; j < n2; j++) {
-                oben = (n2 / 2) - 2;
-                links = (n2 / 2) - 2;
-                unten = (n2 / 2);
-                rechts = (n2 / 2);
-                if (i == j || i + j == n2 - 1) {
-                    matrix[i][j] = 0;
-                    System.out.printf("%4d ", matrix[i][j]);
-                } else if (i == 0 || i <= oben && j > i && i + j < n1) {
-                    matrix[i][j] = 1;
-                    System.out.printf("%4d ", matrix[i][j]);
+    public static void one(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                matrix[i][j] = (i + j) % 2;
+            }
+        }
+    }
 
-                } else if (j == n1 - 1 || j > rechts && i + j >= n1 && i < j) {
+    public static void two(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                matrix[i][j] = (i == j || i + j == matrix[i].length - 1) ? 1 : 0;
+            }
+        }
+    }
+
+    public static void three(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (i == j || i + j == matrix[i].length - 1) {
+                    matrix[i][j] = 0;
+                } else if (i < j && i + j < matrix[i].length - 1) {
+                    matrix[i][j] = 1;
+                } else if (i < j && i + j > matrix[i].length - 1) {
                     matrix[i][j] = 2;
-                    System.out.printf("%4d ", matrix[i][j]);
-                } else if (j == 0 || j <= links && i + j < n1) {
+                } else if (i > j && i + j > matrix[i].length - 1) {
                     matrix[i][j] = 3;
-                    System.out.printf("%4d ", matrix[i][j]);
-                } else if (i >= unten || j < i && i + j > n1) {
+                } else if (i > j && i + j < matrix[i].length - 1) {
                     matrix[i][j] = 4;
-                    System.out.printf("%4d ", matrix[i][j]);
                 }
             }
-            System.out.println("\n");
         }
     }
-    public static void four(int n1, int n2) {
-        int[][] matrix = new int[n1][n2];
-        for (int i = 0; i < n1; i++) {
-            for (int j = 0; j < n2; j++) {
-                if (i==0||j==n2-1||j==0||i==n1-1) {
-                    matrix[i][j] = 0;
-                    System.out.printf("%4d ", matrix[i][j]);
-                } else if(i==1||j==n2-2||i==n1-2||j==1){
-                    matrix[i][j] = 1;
-                    System.out.printf("%4d ", matrix[i][j]);
-                }else {matrix[i][j] = 2;
-                System.out.printf("%4d ", matrix[i][j]);}
+
+    public static void four(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                matrix[i][j] = min(min(i, j), min(matrix.length - j - 1, matrix[i].length - i - 1));
             }
-            System.out.println("\n");
         }
-        System.out.println("\n");
     }
 }
