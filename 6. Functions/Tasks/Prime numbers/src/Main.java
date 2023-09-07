@@ -9,14 +9,14 @@ public class Main {
         amountOfElements = input.nextInt();
         while (amountOfElements != count) {
             number++;
-            if (isPerfect(number)) {
+            if (isPrim(number)) {
                 count++;
                 System.out.printf("%d ", number);
             }
         }
     }
 
-    public static boolean isPerfect(int number) {
+    public static boolean isPrim(int number) {
         int ansver = 2;
         // TODO: Проверить и исправить!!!!
         while (number % ansver != 0) {

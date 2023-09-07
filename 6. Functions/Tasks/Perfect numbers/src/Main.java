@@ -8,7 +8,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         amountOfElements = input.nextInt();
         while (amountOfElements != count) {
-            if (isSimple(number)) {
+            if (isPerfect(number)) {
                 count++;
                 System.out.printf("%d ", number);
             }
@@ -16,14 +16,19 @@ public class Main {
         }
     }
 
-    public static boolean isSimple(int number) {
-        if (number == 1)
-            return false;
-        for (int i = 2; i < number; i++) {
-            if (number % i == 0) {
-                return false;
+    public static boolean isPerfect(int number) {
+        int ansver = 1;
+        int sum = 0;
+        while (number > ansver) {
+            if (number % ansver != 0) {
+            } else if (number != ansver) {
+                sum += ansver;
             }
+            ansver++;
         }
-        return true;
+        if (sum == number) {
+            return true;
+        }
+        return false;
     }
 }
