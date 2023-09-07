@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import static java.lang.Math.sqrt;
+
 public class Main {
     public static void main(String[] args) {
         int amountOfElements;
@@ -8,20 +10,24 @@ public class Main {
         Scanner input = new Scanner(System.in);
         amountOfElements = input.nextInt();
         while (amountOfElements != count) {
-            number++;
-            if (isPrim(number)) {
+            if (isPrime(number)) {
                 count++;
-                System.out.printf("%d ", number);
+                System.out.printf("%d \n", number);
             }
+            number++;
         }
     }
 
-    public static boolean isPrim(int number) {
-        int ansver = 2;
-        // TODO: Проверить и исправить!!!!
-        while (number % ansver != 0) {
-            ansver++;
+    public static boolean isPrime(int number) {
+        if (number == 1) {
+            return false;
         }
-        return number == ansver;
+        for (int i = 2; i < sqrt(number) + 1; i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
+
 }
