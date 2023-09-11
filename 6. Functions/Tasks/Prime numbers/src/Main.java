@@ -18,7 +18,7 @@ public class Main {
 
     public static boolean isPrim(int number) {
         int ansver = 2;
-        // TODO: Проверить и исправить!!!!
+        
         while (number % ansver != 0) {
             ansver++;
         }
