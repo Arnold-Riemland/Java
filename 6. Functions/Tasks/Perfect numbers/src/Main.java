@@ -20,15 +20,11 @@ public class Main {
         int ansver = 1;
         int sum = 0;
         while (number > ansver) {
-            if (number % ansver != 0) {
-            } else if (number != ansver) {
+            if (number % ansver == 0) {
                 sum += ansver;
             }
             ansver++;
         }
-        if (sum == number) {
-            return true;
-        }
-        return false;
+        return sum == number;
     }
 }
