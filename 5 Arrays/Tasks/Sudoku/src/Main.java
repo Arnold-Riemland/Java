@@ -20,15 +20,32 @@ public class Main {
             System.out.println("Incorrect");
         }
     }
+
+    public static boolean CheckColumn(int[][] matrix, int col) {
+        return false;
+    }
+
+    public static boolean CheckRow(int[][] matrix, int row) {
+        return false;
+    }
+
+    public static boolean CheckBox(int[][] matrix, int col, int row) {
+        return false;
+    }
+
     public static boolean CheckSudoku(int[][] matrix) {
+        // Проверка строк
+        // Проверка столбцов
+        // Проверка квадратов
+
         for (int i = 0; i < matrix.length; i++) {
-            int b=0;
+            int b = 0;
             for (int j = 0; j < matrix[i].length; j++) {
                 b++;
                 int k = b;
-                if (k < matrix.length ) {
+                if (k < matrix.length) {
                     for (int d = 0; d < matrix.length; d++) {
-                        if (k < matrix.length ) {
+                        if (k < matrix.length) {
                             if (matrix[i][j] == matrix[i][k]) {
                                 return false;
                             } else k++;
@@ -38,6 +55,6 @@ public class Main {
             }
         }
         return true;
-        }
     }
+}
 
