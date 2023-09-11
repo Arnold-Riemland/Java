@@ -12,19 +12,14 @@ public class Main {
             for (int j = 0; j < n; j++) {
                 matrix[i][j] = input.nextInt();
             }
-
         }
-
-
         if (CheckSudoku(matrix)) {
             System.out.println("Correct");
 
         } else {
             System.out.println("Incorrect");
         }
-
     }
-
     public static boolean CheckSudoku(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             int b=0;
