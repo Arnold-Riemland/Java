@@ -26,17 +26,17 @@ public class Main {
     }
 
     public static boolean CheckRow(int[][] matrix, int row) {
+        int array[] = new int[9];
+        for(int i=row;i < row+1;){
+            for(int j=0;j<matrix.length;j++){
+
+}
+            return true;
+        }
         return false;
     }
 
     public static boolean CheckBox(int[][] matrix, int col, int row) {
-        return false;
-    }
-
-    public static boolean CheckSudoku(int[][] matrix) {
-        // Проверка строк
-        // Проверка столбцов
-        // Проверка квадратов
 
         for (int i = 0; i < matrix.length; i++) {
             int b = 0;
@@ -54,7 +54,18 @@ public class Main {
                 }
             }
         }
-        return true;
+        return false;
+    }
+
+    public static boolean CheckSudoku(int[][] matrix) {
+        // Проверка строк
+        // Проверка столбцов
+        // Проверка квадратов
+        if(CheckRow(matrix,3)){
+            return true;
+        }
+
+        return false;
     }
 }
 
