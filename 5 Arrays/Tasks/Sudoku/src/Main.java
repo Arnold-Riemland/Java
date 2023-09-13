@@ -27,10 +27,10 @@ public class Main {
 
     public static boolean CheckRow(int[][] matrix, int row) {
         int array[] = new int[9];
-        for(int i=row;i < row+1;){
-            for(int j=0;j<matrix.length;j++){
+        for (int i = row; i < row + 1; ) {
+            for (int j = 0; j < matrix.length; j++) {
 
-}
+            }
             return true;
         }
         return false;
@@ -61,7 +61,7 @@ public class Main {
         // Проверка строк
         // Проверка столбцов
         // Проверка квадратов
-        if(CheckRow(matrix,3)){
+        if (CheckRow(matrix, 3)) {
             return true;
         }
 
