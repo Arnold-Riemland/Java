@@ -29,7 +29,9 @@ public class Main {
         int array[] = new int[9];
         for (int i = row; i < row + 1; ) {
             for (int j = 0; j < matrix.length; j++) {
+                if (array == matrix[j]) {
 
+                }
             }
             return true;
         }

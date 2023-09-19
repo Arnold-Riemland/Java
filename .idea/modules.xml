@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/5 Arrays/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/Tasks/Distance between two points/Binary code/Binary code.iml" filepath="$PROJECT_DIR$/6. Functions/Tasks/Distance between two points/Binary code/Binary code.iml" />
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Tasks/Cyclic shift to the right/Cyclic shift to the right.iml" filepath="$PROJECT_DIR$/5 Arrays/Tasks/Cyclic shift to the right/Cyclic shift to the right.iml" />
       <module fileurl="file://$PROJECT_DIR$/6. Functions/Tasks/Distance between two points/Distance between two points.iml" filepath="$PROJECT_DIR$/6. Functions/Tasks/Distance between two points/Distance between two points.iml" />
       <module fileurl="file://$PROJECT_DIR$/2 Division operations/Division operations/Division operations.iml" filepath="$PROJECT_DIR$/2 Division operations/Division operations/Division operations.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Ex2 Division operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex3 Conditional/Ex3 Conditional.iml" filepath="$PROJECT_DIR$/Ex3 Conditional/Ex3 Conditional.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Factorial/Factorial.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Factorial/Factorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/Tasks/Factorial2/Factorial2.iml" filepath="$PROJECT_DIR$/6. Functions/Tasks/Factorial2/Factorial2.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Fibonacci numbers/Fibonacci numbers.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Fibonacci numbers/Fibonacci numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/For/For.iml" filepath="$PROJECT_DIR$/4 Loops/For/For.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Foreach/Foreach.iml" filepath="$PROJECT_DIR$/4 Loops/Foreach/Foreach.iml" />
@@ -37,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/6. Functions/Rucursion/Rucursion.iml" filepath="$PROJECT_DIR$/6. Functions/Rucursion/Rucursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/2 Division operations/Tasks/Seconds/Seconds.iml" filepath="$PROJECT_DIR$/2 Division operations/Tasks/Seconds/Seconds.iml" />
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Tasks/Sudoku/Sudoku.iml" filepath="$PROJECT_DIR$/5 Arrays/Tasks/Sudoku/Sudoku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Functions/Tasks/Distance between two points/Sum of digits/Sum of digits.iml" filepath="$PROJECT_DIR$/6. Functions/Tasks/Distance between two points/Sum of digits/Sum of digits.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Switch/Switch.iml" filepath="$PROJECT_DIR$/3 Conditional/Switch/Switch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex2 Division operations/Tasks/Tasks.iml" filepath="$PROJECT_DIR$/Ex2 Division operations/Tasks/Tasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Ternary operation/Ternary operation.iml" filepath="$PROJECT_DIR$/3 Conditional/Ternary operation/Ternary operation.iml" />
