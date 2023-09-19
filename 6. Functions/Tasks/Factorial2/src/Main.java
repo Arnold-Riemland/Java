@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     static long Factorial(int n) {
         if (n > 0)
@@ -6,6 +8,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.printf("5! = %d", Factorial(5));
+        Scanner input = new Scanner(System.in);
+        int num = input.nextInt();
+        System.out.printf("%d! = %d", num, Factorial(num));
     }
 }
