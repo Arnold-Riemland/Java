@@ -26,36 +26,15 @@ public class Main {
     }
 
     public static boolean CheckRow(int[][] matrix, int row) {
-        int array[] = new int[9];
-        for (int i = row; i < row + 1; ) {
-            for (int j = 0; j < matrix.length; j++) {
-                if (array == matrix[j]) {
-
-                }
+        int[] array = new int[]{3, 4, 5, 1, 3, 6, 9, 8, 7};
+            if (matrix[row].length != array.length) {
+                return false;
             }
-            return true;
-        }
-        return false;
+        return true;
     }
-
     public static boolean CheckBox(int[][] matrix, int col, int row) {
 
-        for (int i = 0; i < matrix.length; i++) {
-            int b = 0;
-            for (int j = 0; j < matrix[i].length; j++) {
-                b++;
-                int k = b;
-                if (k < matrix.length) {
-                    for (int d = 0; d < matrix.length; d++) {
-                        if (k < matrix.length) {
-                            if (matrix[i][j] == matrix[i][k]) {
-                                return false;
-                            } else k++;
-                        }
-                    }
-                }
-            }
-        }
+
         return false;
     }
 
