@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/5 Arrays/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/6. Functions/Tasks/Binary code/Binary code.iml" filepath="$PROJECT_DIR$/6. Functions/Tasks/Binary code/Binary code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. Strings/Tasks/Caesar Cipher/Caesar Cipher.iml" filepath="$PROJECT_DIR$/7. Strings/Tasks/Caesar Cipher/Caesar Cipher.iml" />
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Tasks/Cyclic shift to the right/Cyclic shift to the right.iml" filepath="$PROJECT_DIR$/5 Arrays/Tasks/Cyclic shift to the right/Cyclic shift to the right.iml" />
       <module fileurl="file://$PROJECT_DIR$/6. Functions/Tasks/Distance between two points/Distance between two points.iml" filepath="$PROJECT_DIR$/6. Functions/Tasks/Distance between two points/Distance between two points.iml" />
       <module fileurl="file://$PROJECT_DIR$/2 Division operations/Division operations/Division operations.iml" filepath="$PROJECT_DIR$/2 Division operations/Division operations/Division operations.iml" />
@@ -24,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Tasks/Least positive/Least positive.iml" filepath="$PROJECT_DIR$/5 Arrays/Tasks/Least positive/Least positive.iml" />
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Tasks/Line/Line.iml" filepath="$PROJECT_DIR$/5 Arrays/Tasks/Line/Line.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. Strings/Tasks/Longest word/Longest word.iml" filepath="$PROJECT_DIR$/7. Strings/Tasks/Longest word/Longest word.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Tasks/Mashrooms/Mashrooms.iml" filepath="$PROJECT_DIR$/3 Conditional/Tasks/Mashrooms/Mashrooms.iml" />
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Tasks/MatrixFilling/MatrixFilling.iml" filepath="$PROJECT_DIR$/5 Arrays/Tasks/MatrixFilling/MatrixFilling.iml" />
       <module fileurl="file://$PROJECT_DIR$/6. Functions/Method overloading/Method overloading.iml" filepath="$PROJECT_DIR$/6. Functions/Method overloading/Method overloading.iml" />
@@ -31,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Multidimensional arrays/Multidimensional arrays.iml" filepath="$PROJECT_DIR$/5 Arrays/Multidimensional arrays/Multidimensional arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Multiplication table/Multiplication table.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Multiplication table/Multiplication table.iml" />
       <module fileurl="file://$PROJECT_DIR$/5 Arrays/Tasks/Number of different elements1/Number of different elements1.iml" filepath="$PROJECT_DIR$/5 Arrays/Tasks/Number of different elements1/Number of different elements1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. Strings/Strings/Number systems/Number systems.iml" filepath="$PROJECT_DIR$/7. Strings/Strings/Number systems/Number systems.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Conditional/Switch/Number to text/Number to text.iml" filepath="$PROJECT_DIR$/3 Conditional/Switch/Number to text/Number to text.iml" />
       <module fileurl="file://$PROJECT_DIR$/7. Strings/Tasks/Palindrome/Palindrome.iml" filepath="$PROJECT_DIR$/7. Strings/Tasks/Palindrome/Palindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/6. Functions/Tasks/Perfect numbers/Perfect numbers.iml" filepath="$PROJECT_DIR$/6. Functions/Tasks/Perfect numbers/Perfect numbers.iml" />
@@ -52,6 +55,8 @@
       <module fileurl="file://$PROJECT_DIR$/4 Loops/While/While.iml" filepath="$PROJECT_DIR$/4 Loops/While/While.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Fibonacci numbers/fibonacci numbers.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Fibonacci numbers/fibonacci numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/4 Loops/Tasks/For/Multiplication table/multiplication table.iml" filepath="$PROJECT_DIR$/4 Loops/Tasks/For/Multiplication table/multiplication table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1 Input Output/Input Output/test/test.iml" filepath="$PROJECT_DIR$/1 Input Output/Input Output/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1 Input Output/Input Output/test/test2/test2.iml" filepath="$PROJECT_DIR$/1 Input Output/Input Output/test/test2/test2.iml" />
     </modules>
   </component>
 </project>
