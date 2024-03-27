@@ -5,7 +5,7 @@ public class Main {
         // Ввод информации
         int num1, num2;
         /*
-            Scanner - класс для чтения информции
+            Scanner - класс для чтения информации
             System.in - поток, из которого информация поступает (клавиатура)
          */
         Scanner input = new Scanner(System.in);
