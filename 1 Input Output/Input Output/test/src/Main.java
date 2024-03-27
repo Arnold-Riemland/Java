@@ -29,6 +29,12 @@ public class Main {
             } else if (alphabet.indexOf(str.charAt(i)) < 26) {
                 for (int j = 0; j < num; j++) {
                     a++;
+                    if(a>24){
+                        a=0;
+                    }
+                    if(b>24){
+                        b=0;
+                    }
                     if ((alphabet.indexOf(str.charAt(i)) + a) < 26) {
                         res = alphabet.indexOf(str.charAt(i)) + a;
                     } else {
@@ -44,7 +50,13 @@ public class Main {
             } else {
                 for (int j = 0; j < num; j++) {
                     a++;
-                    if ((alphabet.indexOf(str.charAt(i)) + a) < 52) {
+                    if(a>50){
+                        a=0;
+                    }
+                    if(di>50){
+                        di=25;
+                    }
+                    if ((alphabet.indexOf(str.charAt(i)) + a) < 51) {
                         res = alphabet.indexOf(str.charAt(i)) + a;
                     } else {
                         res = di + 1;
