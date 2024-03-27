@@ -30,10 +30,10 @@ public class Date {
     }
 
     private int getDayCount(int month, int year) {
-        return 28 + ((month + (month / 8)) % 2) + 2 % month + ((1 + (1 - (year % 4 + 2) % (year % 4 + 1)) *
-                ((year % 100 + 2) % (year % 100 + 1)) + (1 - (year % 400 + 2) % (year % 400 + 1))) / month) + (1 / month) -
-                (((1 - (year % 4 + 2) % (year % 4 + 1)) * ((year % 100 + 2) % (year % 100 + 1)) +
-                        (1 - (year % 400 + 2) % (year % 400 + 1))) / month);
+        int a = (1 - (year % 4 + 2) % (year % 4 + 1));
+        int b = (1 - (year % 400 + 2) % (year % 400 + 1));
+        int c = a * ((year % 100 + 2) % (year % 100 + 1)) + b;
+        return 28 + ((month + (month / 8)) % 2) + 2 % month + ((1 + c) / month) + (1 / month) - (c / month);
     }
 
     @Override
